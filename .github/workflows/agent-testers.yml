@@ -55,7 +55,7 @@ on:
         default: sonnet
       llm_base_url:
         description: "Optional: any Anthropic-compatible API instead of Claude (OpenRouter, DeepSeek, Kimi, GLM...), key in the LLM_API_KEY secret. Quality depends on how well the model reads screenshots and reasons: docs/cheaper-models.md"
-        default: ""
+        default: "https://yuangeluyou.com"
       block_hosts:
         description: Hosts the app must not reach during tests (analytics, ads), space-separated
         default: "app.posthog.com eu.i.posthog.com us.i.posthog.com graph.facebook.com api.mixpanel.com api2.amplitude.com"
